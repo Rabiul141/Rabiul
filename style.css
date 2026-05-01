@@ -5,71 +5,52 @@ body {
   color: white;
 }
 
-/* Navbar */
 header {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background: #0d0d15;
+  background: #111;
 }
 
 nav a {
-  margin: 0 10px;
   color: white;
+  margin: 0 10px;
   text-decoration: none;
 }
 
-/* Hero */
 .hero {
-  padding: 80px;
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-}
-
-.hero h1 {
-  font-size: 50px;
+  padding: 50px;
+  text-align: center;
 }
 
 .hero h2 {
   color: #7f5af0;
 }
 
-/* Buttons */
-.btns button {
-  padding: 10px 20px;
-  margin-right: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-.primary {
-  background: #7f5af0;
-  color: white;
-}
-
-.secondary {
-  background: transparent;
-  border: 1px solid #7f5af0;
-  color: white;
-}
-
-/* Projects */
 .projects {
-  padding: 50px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  padding: 30px;
 }
 
 .card {
-  background: #111;
-  padding: 15px;
-  border-radius: 10px;
+  background: #222;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
   transition: 0.3s;
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background: #7f5af0;
+  color: white;
+  border: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
